@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #cce7f0;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            width: 80%;
+            margin: auto; 
+            padding: 20px;
+            background-color: #e6f7fc;
+            border: 2px solid #a8d5e3;
+            border-radius: 10px;
+        }
+
+        .header-container {
+    display: flex;
+    align-items: center; /* Align vertically */
+    justify-content: space-between; /* Space out the image and text */
+    margin-bottom: 10px;
+}
+
+.header-details {
+    flex: 1; /* Use available space */
+    text-align: center; /* Center the text */
+}
+
+.header-container img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+        .header-details h1 {
+            font-size: 28px;
+            margin: 5px 0;
+        }
+
+        .header-details h3 {
+            font-size: 18px;
+            margin: 2px 0;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin-bottom: 5px;
+            text-decoration: underline;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+        }
+
+        .left-column {
+            width: 55%;
+        }
+
+        .right-column {
+            width: 25%;
+            border-left: 2px solid #000; /* Vertical line */
+            padding-left: 15px;
+            
+
+        }
+
+        hr {
+            border: 0;
+            border-top: 2px solid #000;
+            margin: 10px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #000;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+
+        ul {
+            padding-left: 30px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #a8d5e3;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <!-- Header Section -->
+        <div class="header-container">
+            <img src="shri.jfif" alt="Profile Picture">
+            <div class="header-details">
+                <h1>Shridevi</h1>
+                <h3>9353501720</h3>
+                <h3>shreedevishetty27042005@gmail.com</h3>
+            </div>
+        </div>
+<hr>
+        <div>
+            <h3>Objective:</h3>
+            <p>I am a CSE student from Canara Engineering College expecting a package of 5 LPA.</p>
+        </div>
+
+        
+
+        <!-- Main Content Section -->
+        <div class="flex-container">
+            <!-- Left Column -->
+            <div class="left-column">
+                <h3>Education Specification:</h3>
+                <table>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Passing Year</th>
+                        <th>Division</th>
+                        <th>Institution Name</th>
+                    </tr>
+                    <tr>
+                        <td>B.E.</td>
+                        <td>Present</td>
+                        <td>C</td>
+                        <td>CEC Mangalore</td>
+                    </tr>
+                    <tr>
+                        <td>12th</td>
+                        <td>2022</td>
+                        <td>1st</td>
+                        <td>SDPT PU</td>
+                    </tr>
+                    <tr>
+                        <td>10th</td>
+                        <td>2020</td>
+                        <td>1st</td>
+                        <td>GHSB</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Right Column -->
+            <div class="right-column">
+                <h3>Skills:</h3>
+                <ul>
+                    <li> Java</li>
+                    <li>C Programming</li>
+                    <li>Leadership</li>
+                    <li>HTML</li>
+                    <li>Analytical skills</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Collapsed Horizontal Line -->
+        <hr>
+
+        <div class="flex-container">
+            <!-- Left Column -->
+            <div class="left-column">
+                <h3>Contact Details:</h3>
+                <p>Father's Name: Bhaskar Shetty</p>
+                <p>Mother's Name: veena</p>
+                <p>Date of Birth: 27/04/2005</p>
+                <p>Address: Mangalore, India</p>
+            </div>
+
+            <!-- Right Column -->
+            <div class="right-column">
+                <h3>Interests:</h3>
+                <ul>
+                    <li>Connecting with different personalities</li>
+                    <li>Learning new things</li>
+                    <li>Photography</li>
+                    <li>Traveling</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Final Horizontal Line -->
+        <hr>
+
+        <footer>
+            Copyright © Shridevi
+        </footer>
+    </div>
+</body>
+</html>
